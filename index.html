@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Generativa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fondo__opaco">
+        <header class="header">
+            <div class="title">
+                <h1 class="header__title">Inteligencias Artificiales Generativas<span class="header__subtitle">(IA generativa)</span></h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__ul">
+                    <li class="list__item"><a href="./index.html" class="link__nav">Home</a></li>
+                    <li class="list__item"><a href="./index.html" class="link__nav">contactanos</a></li>
+                    <li class="list__item menu--item">
+                    <a class="link__nav" href="#">Past-Present-Future ▼</a>
+                        <ul class="submenu">
+                            <li class="list__menu"><a class="link__nav link__menu" href="index1.html">History</a></li>
+                            <li class="list__menu"><a class="link__nav link__menu" href="index2.html">Present</a></li>
+                            <li class="list__menu"><a class="link__nav link__menu" href="index3.html">Future</a></li>
+                        </ul>
+                    </li>
+                    <li class="list__item item--buttom"><a href="" class="link__nav">log in</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article class="article__ia"> <!-- ARTICULO PRINCIPAL -->
+                <img class="imagen__prin" src="imagenes/MENTE IA.png" alt="">
+                <div class="div__ia">
+                    <h2 class="div__ia ia--title">¿Qué es la IA Generativa?</h2>
+                        <p class="div__ia generativa--p">La <strong class="div__ia">IA generativa</strong> es un tipo de inteligencia artificial capaz de <span class="div__ia">crear contenido nuevo y original</span>
+                        a partir de datos existentes. No solo analiza, predice o clasifica: genera.
+                        Funciona con modelos de aprendizaje profundo, como redes neuronales entrenadas con enormes cantidades de datos (texto, imágenes, sonidos, videos, etc.), y luego aprende patrones, estilos y estructuras para producir resultados nuevos que imitan esos datos.
+                    </p>
+                </div>
+            </article>
+            <div class="super__tarjeta">
+                <div>
+                    <article class="article"> <!-- ARTICULO DE DIVS PARA SEPARAR DIFERENTES TIPOS DE IAs GENERATIVAS Y SUS LINKS PARA NAVEGAR EN CADA UNO-->
+                        <h2 class="tarjetas__title">¿Qué puede generar?</h2>
+
+                        <div class="contenedor__tarjetas">  <!-- TIPO TEXTOS -->
+                            <!--TARJETA DE TEXTO-->
+                            <div id="texto" class="tarjeta__total">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Texto</h3>
+                                        <p class="div__text text--ejemplos">(Artículos, poemas, correos, guiones, código)</p>
+                                        <img class="div__text gif--hovertexto" src="imagenes/texto/Texto-img-estatico.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p"> Genera textos coherentes y contextuales: desde simples frases hasta libros enteros. Usa modelos de lenguaje entrenados con miles de millones de palabras.</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Un modelo (como GPT) predice palabra por palabra lo que debería venir después, usando patrones aprendidos de millones de textos.</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+                                    <a class="link__article" href="https://chatgpt.com/" target="_blank">
+                                        <img class="link__image" src="./imagenes/texto/chatgpt-logo-png.png" alt="Chat gpt image">
+                                        <h4>Chat gpt</h4>
+                                    </a>
+                                    <a class="link__article" href="https://claude.ai/" target="_blank">
+                                        <img class="link__image" src="./imagenes/texto/Claude.png" alt="">
+                                        <h4>Claude</h4>
+                                    </a>
+                                    <a class="link__article" href="https://copilot.microsoft.com/" target="_blank">
+                                        <img class="link__image image--copilot" src="./imagenes/texto/Microsoft 365 Copilot.png" alt="">
+                                        <h4>Copilot</h4>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!--TARJETA DE IMAGENES-->
+                            <div id="imagenes" class="tarjeta__total">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Imagenes</h3>
+                                        <p class="div__text text--ejemplos">(Ilustraciones, logos, diseños, arte)</p>
+                                        <img class="div__text gif--hoverimagen" src="imagenes/tipo_imagen/imagen-png.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p">Crea imágenes completamente nuevas a partir de descripciones en texto, o modifica imágenes existentes.</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Usan modelos de difusión que transforman ruido aleatorio en una imagen coherente, guiados por la descripción que vos das (prompt).</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+
+                                    <a class="link__article" href="https://chatgpt.com/g/g-2fkFE8rbu-dall-e" target="_blank">
+                                        <img class="link__image" src="./imagenes/texto/chatgpt-logo-png.png" alt="Chat gpt image">
+                                        <h4>DALL-E</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://www.midjourney.com/" target="_blank">
+                                        <img class="link__image" src="./imagenes/tipo_imagen/Midjourney-App-Icon-PNG.png" alt="">
+                                        <h4>Midjourney</h4>
+                                    </a>
+                                </div>
+                            </div>  
+                            <!--TARJETA DE VIDEO-->
+                            <div id="video" class="tarjeta__total">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Video</h3>
+                                        <p class="div__text text--ejemplos">(Clips cortos, animaciones, efectos especiales)</p>
+                                        <img class="div__text gif--hovervideo" src="imagenes/videos/video-png.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p">Genera o edita videos a partir de texto o de otros materiales (imágenes, audio). También permite alterar rostros, movimientos o fondos.</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Combinan técnicas de IA generativa en imagen + audio + animación. Pueden usar modelos de difusión o transformers multimodales.</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+                                    <a class="link__article" href="https://openai.com/es-419/sora/" target="_blank">
+                                        <img class="link__image" src="./imagenes/texto/chatgpt-logo-png.png" alt="Chat gpt image">
+                                        <h4>Sora (OpenAI)</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://runwayml.com/" target="_blank">
+                                        <img class="link__image image--runway" src="./imagenes/videos/Runway-Ai-Black-Symbol-Logo-PNG.png" alt="">
+                                        <h4>Runway ML</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://pika.art/about" target="_blank">
+                                        <img class="link__image image--pika" src="./imagenes/videos/pika.png" alt="">
+                                        <h4>Pika</h4>
+                                    </a>
+
+                                </div>
+                            </div>  
+                            <!--TARJETA DE MUSICA-->
+                            <div id="musica" class="tarjeta__total">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Musica</h3>
+                                        <p class="div__text text--ejemplos">(Composiciones musicales, beats, efectos de sonido)</p>
+                                        <img class="div__text gif--hovermusica" src="imagenes/musica/musica-sol-png.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p">Genera piezas musicales desde cero o complementa partes de una canción (como el ritmo, la melodía o la armonía).</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Utilizan redes neuronales que analizan estructuras musicales y generan melodías, acordes y ritmo de forma coherente, en estilos elegidos por el usuario.</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+
+                                    <a class="link__article" href="https://soundraw.io/" target="_blank">
+                                        <img class="link__image" src="./imagenes/musica/Sound.png" alt="Chat gpt image">
+                                        <h4>Soundraw</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://www.aiva.ai/" target="_blank">
+                                        <img class="link__image" src="./imagenes/musica/AIVA.png" alt="">
+                                        <h4>AIVA</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://www.mureka.ai/" target="_blank">
+                                        <img class="link__image image--mureka" src="./imagenes/musica/mureka.webp" alt="">
+                                        <h4>Mureka</h4>
+                                    </a>
+
+                                </div>
+                            </div>     
+                            <!--TARJETA DE VOZ Y AUDIO-->
+                            <div id="vozyaudio" class="tarjeta__total">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Voz y audio</h3>
+                                        <p class="div__text text--ejemplos">(Imitaciones de voz, doblajes, lectura en voz alta)</p>
+                                        <img class="div__text gif--hoveraudio" src="imagenes/voz-audio/voz-audio-png.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p">Convierte texto en voz hablada, o imita voces reales (incluso de celebridades o usuarios), con una entonación y acento natural.</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Modelos entrenados en grabaciones de voz capturan el tono, ritmo y estilo. Luego generan nuevas frases con esa misma voz.</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+
+                                    <a class="link__article" href="https://elevenlabs.io/" target="_blank">
+                                        <img class="link__image image--elevenlabs" src="./imagenes/voz-audio/elevenlabs58.webp" alt="Chat gpt image">
+                                        <h4>Elevenlabs</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://www.descript.com/" target="_blank">
+                                        <img class="link__image image--radius" src="./imagenes/voz-audio/Descript-e1692129726820.jpeg" alt="">
+                                        <h4>descript</h4>
+                                    </a>
+
+                                    <a class="link__article" href="https://www.respeecher.com/" target="_blank">
+                                        <img class="link__image image--radius" src="./imagenes/voz-audio/favicon_512_B2b.webp" alt="">
+                                        <h4>Respeecher</h4>
+                                    </a>
+
+                                </div>
+                            </div> 
+                            <!--TARJETA DE CODIGO-->
+                            <div id="codigo" class="tarjeta__total tarjeta--codigo">
+                                <div class="tarjeta__texto">
+                                    <div class="div__text">
+                                        <h3 class="div__text text--tipo">Código</h3>
+                                        <p class="div__text text--ejemplos">(Scripts, funciones, programas completo)</p>
+                                        <img class="div__text gif--hovercodigo" src="imagenes/codigo/codigo-png.png" alt="GIF hover">
+                                    </div>
+                                
+                                    <div class="div__infotarjeta">
+                                        <h4 class="info__title">¿Qué hace?</h4>
+                                        <p class="info__p">Genera código fuente, soluciona bugs, escribe funciones o incluso aplicaciones completas a partir de descripciones en lenguaje natural.</p>
+                                        <h4 class="info__title">Cómo funciona:</h4>
+                                        <p class="info__p">Un modelo (como GPT) predice palabra por palabra lo que debería venir después, usando patrones aprendidos de millones de textos.</p>
+                                    </div>
+                                </div> 
+                                <div class="div__links">
+
+                                    <a class="link__article" href="https://github.com/features/copilot" target="_blank">
+                                        <img class="link__image" src="./imagenes/codigo/Microsoft.VisualStudio.Services.Icons.Default" alt="Chat gpt image">
+                                        <h4>GitHub Copilot</h4>
+                                    </a>
+
+                                </div>
+                            </div>        
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="contenedor__div">
+                <div class="div__footer">
+                    <h4 class="title__footer">Categorias</h4>
+                    <ul class="footer__ul">
+                    <li class="list__footer"><a class="link__footer" href="index.html">Incio</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#texto">Texto</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#imagenes">Imagenes</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#video">Video</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#musica">Musica</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#vozyaudio">Voz y audio</a></li>
+                    <li class="list__footer"><a class="link__footer" href="#codigo">codigo</a></li>
+                </ul>
+                </div>
+                <div class="div__footer">
+                    <h4 class="title__footer">Contactanos</h4>
+                    <ul class="footer__ul">
+                        <li class="list__footer"><a class="link__footer" href="">instagram</a></li>
+                        <li class="list__footer"><a class="link__footer" href="">GitHub</a></li>
+                        <li class="list__footer"><a class="link__footer" href="">Youtube</a></li>
+                        <li class="list__footer"><a class="link__footer" href="">twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
