@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles4.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form >
+        <h2>Formulario de contacto</h2>
+    </label>
+        <!--SIMPLE INPUTS-->
+        <fieldset>
+            <legend>INFORMACIÓN BÁSICA</legend>
+            <div class="form_input">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Jonh Doe" id="nombre">
+            </div>
+            <div class="form_input">
+                <label for="email">Email</label>
+                <input type="text" placeholder="ejemplo@gmail.com" id="email">
+            </div>
+            <div class="form_input">
+                <label for="asunto">Asunto</label>
+                <input type="text" placeholder="Mi asunto es..." id="asunto">
+            </div>
+        </fieldset>
+        <!--SELECT Y OPTION-->
+        
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user">
+                    <option value="user1">Seguidor</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+        <!--DATALIST Y OPTION-->
+        <div class="form_input">
+            <label>referente
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user">
+                    <option value="Soy dalto">Un amigo</option>
+                    <option value="Nike">una Empresa</option>
+                    <option value="Ig">Redes sociales</option>
+                </datalist>
+            </label>
+        </div>
+        
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea rows="8" placeholder="Deja tu Mensaje..." id="mensaje"></textarea>
+        </div>
+        <!--CHECKBOX-->
+        <div class="form_input">
+            <label for="checkbox">acepto los <a href="terms.html">terminos y condiciones</a>
+            <input class="checkbox" type="checkbox" id="checkbox">
+            </label>
+        </div>
+        <!--TEXTAREA-->
+        <div class="form_input">
+                <input type="submit" name="submit" id="submit">
+        </div>
+
+            <!-- <audio src="asdasd.mp3"></audio> lo mismo q el video pero audio  ///   <track src="" default kind srclang="es" label="español(latinoamerica)">  para subtitulos hay q ver si se usa CAPTION o SUBTITLE-->
+        </div>
+    </form>
+
+
+</body>
+</html>
